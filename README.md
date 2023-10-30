@@ -6,12 +6,18 @@ PixaBay is an iOS app designed using modern development practices and architectu
 
 - **Login Screen:** Mock login. Fields are validated using validators.
 - **Registration Screen:** Mock Registration logic. Fields are validated using validators.
-- **Home Feed:** A dynamic endless feed of PixaBay API. 
-- **Detail Page:** Detailed page of PixaBay image, with full resolution image, ability to share with long press.
+- **Home screen:** A dynamic endless feed of PixaBay API. 
+- **Detail screen:** Detailed screen of PixaBay image, with full resolution image, can be shared with a long press.
 
 - ## Screenshots
-### Login Screen
+### Login
 <img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/login.png" alt="Login Screen" width="300">
+### Registration
+<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/registration.png" alt="Registration Screen" width="300">
+### Home 
+<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/feed.png" alt="Registration Screen" width="300">
+### Detail 
+<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/detail.png" alt="Detail Screen" width="300">
 ## Architecture & Technologies
 
 This project is built using the following key technologies and architectural patterns:

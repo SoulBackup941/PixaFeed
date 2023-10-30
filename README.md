@@ -9,15 +9,11 @@ PixaBay is an iOS app designed using modern development practices and architectu
 - **Home screen:** A dynamic endless feed of PixaBay API. 
 - **Detail screen:** Detailed screen of PixaBay image, with full resolution image, can be shared with a long press.
 
-- ## Screenshots
-### Login
-<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/login.png" alt="Login Screen" width="300">
-### Registration
-<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/registration.png" alt="Registration Screen" width="300">
-### Home 
-<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/feed.png" alt="Registration Screen" width="300">
-### Detail 
-<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/details.png" alt="Detail Screen" width="300">
+## Screenshots
+
+| Login | Registration | Home | Detail |
+|-------|--------------|------|--------|
+| <img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/login.png" alt="Login Screen" width="200"> | <img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/registration.png" alt="Registration Screen" width="200"> | <img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/feed.png" alt="Home Screen" width="200"> | <img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/details.png" alt="Detail Screen" width="200"> |
 
 ## Architecture & Technologies
 This project is built using the following key technologies and architectural patterns:
@@ -34,10 +30,3 @@ This project is built using the following key technologies and architectural pat
 ```bash
 git clone https://github.com/[YourGitHubUsername]/PixaBay.git
 cd PixaBay
-```
-
-_Instructions for dependency installation, if any, such as CocoaPods, Carthage, or Swift Package Manager._
-
-## License
-
-"Distributed under the MIT License. See `LICENSE` for more information."

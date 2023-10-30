@@ -12,6 +12,5 @@ class MockRegisterUserUseCase: RegisterUserUseCase {
     
     func execute(user: UserRegistration) throws {
         isExecuteCalled = true
-        // You can add additional logic here if needed
     }
 }

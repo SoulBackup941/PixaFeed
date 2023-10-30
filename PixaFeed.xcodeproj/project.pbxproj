@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76382E072AEFE3E6001F736D /* WrapStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76382E062AEFE3E6001F736D /* WrapStackView.swift */; };
 		7666C4872AEBFFFC004C0372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666C4862AEBFFFC004C0372 /* AppDelegate.swift */; };
 		7666C4902AEBFFFF004C0372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7666C48F2AEBFFFF004C0372 /* Assets.xcassets */; };
 		7666C4932AEBFFFF004C0372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7666C4912AEBFFFF004C0372 /* LaunchScreen.storyboard */; };
@@ -64,7 +63,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		76382E062AEFE3E6001F736D /* WrapStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapStackView.swift; sourceTree = "<group>"; };
 		7666C4832AEBFFFC004C0372 /* PixaFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixaFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7666C4862AEBFFFC004C0372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7666C48F2AEBFFFF004C0372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -415,7 +413,6 @@
 			children = (
 				767E58F72AEEFB7B00A38BD2 /* sha256.swift */,
 				76C0030B2AEFC13800338146 /* PaddedLabel.swift */,
-				76382E062AEFE3E6001F736D /* WrapStackView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -573,7 +570,6 @@
 				767E58DE2AEE687100A38BD2 /* HomeCoordinator.swift in Sources */,
 				767E59082AEFB3B600A38BD2 /* ImageDetail.swift in Sources */,
 				767E59042AEFB1E000A38BD2 /* ImageDetailViewController.swift in Sources */,
-				76382E072AEFE3E6001F736D /* WrapStackView.swift in Sources */,
 				767E58E02AEE6DCE00A38BD2 /* LoadingIndicatorView.swift in Sources */,
 				7666C4D22AEC4346004C0372 /* HomeFeedViewModel.swift in Sources */,
 				767E58E42AEE740100A38BD2 /* UserLoginRepositoryProtocol.swift in Sources */,

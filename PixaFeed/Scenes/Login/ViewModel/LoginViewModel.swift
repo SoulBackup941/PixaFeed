@@ -63,9 +63,8 @@ class LoginViewModel: LoginViewModelProtocol {
     }
 
     private func performLogin(email: String, password: String) async throws {
-        try await loginValidationWorker.validate(values: ["email": email, "password": password])
+        try loginValidationWorker.validate(values: ["email": email, "password": password])
         let hashedPassword = password.sha256()
         try await loginUseCase.execute(email: email, password: hashedPassword)
-        // This now uses the use case to perform login
     }
 }

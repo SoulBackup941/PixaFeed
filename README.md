@@ -13,7 +13,7 @@ PixaFeed is an iOS app designed using modern development practices and architect
 
 | Login | Registration | Home | Detail |
 |-------|--------------|------|--------|
-| <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/login.png" alt="Login Screen" width="200"> | <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/registration.png" alt="Registration Screen" width="200"> | <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/feed.png" alt="Home Screen" width="200"> | <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/details.png" alt="Detail Screen" width="200"> |
+| <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/login.png" alt="Login Screen" height="500"> | <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/registration.png" alt="Registration Screen" height="500"> | <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/feed.png" alt="Home Screen" height="500"> | <img src="https://github.com/SoulBackup941/PixaFeed/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/details.png" alt="Detail Screen" height="500"> |
 
 ## Architecture & Technologies
 This project is built using the following key technologies and architectural patterns:

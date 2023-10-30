@@ -33,6 +33,12 @@ This project is built using the following key technologies and architectural pat
 - **Dependency Injection:** Allows for more modular and testable code.
 - **Unit Tests:** Ensures robustness and reliability of the code through extensive unit testing.
 
+## TODO
+- Use constants instead for haradcoded values
+- Use localized strings
+- Add more unit tests
+- Add more UI details
+
 ## Installation
 
 ```bash

@@ -19,7 +19,6 @@ class LoginUseCase: LoginUseCaseProtocol {
     }
 
     func execute(email: String, password: String) async throws {
-        // Perform the login operation using the repository
         try await repository.login(email: email, password: password)
     }
 }

@@ -29,7 +29,7 @@ class ImageFeedRepository: ImageFeedRepositoryProtocol {
             // If local cache retrieval fails or data is invalid, fetch from remote
             do {
                 let remoteData = try await remoteDataSource.fetchImageFeedFromAPI(page: page)
-                localDataSource.saveImageFeedToCache(remoteData) // This method can also be updated to use async/await if it performs IO operations
+                localDataSource.saveImageFeedToCache(remoteData)
                 return remoteData
             } catch let remoteError {
                 throw remoteError

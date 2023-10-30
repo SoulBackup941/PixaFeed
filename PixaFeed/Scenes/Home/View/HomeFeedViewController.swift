@@ -93,7 +93,6 @@ extension HomeFeedController {
     private func handle(state: HomeViewModel.ViewModelState) {
         switch state {
         case .loading:
-            // TODO: Show loading indicator
             break
         case .loaded(let newImages):
             insertNewItems(from: newImages)

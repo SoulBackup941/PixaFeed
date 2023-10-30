@@ -250,6 +250,7 @@ extension ImageDetailViewController {
         return label
     }
     
+    // TODO: Refactor to CollectionView for better UI/UX
     private func layoutTags(_ tags: [String]) {
         tagsStackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
         for tag in tags {
@@ -260,6 +261,7 @@ extension ImageDetailViewController {
             label.clipsToBounds = true
             tagsStackView.addArrangedSubview(label)
         }
+        tagsStackView.axis = tagsStackView.subviews.count > 3 ? .vertical : .horizontal
     }
 }
 

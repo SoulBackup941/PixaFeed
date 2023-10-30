@@ -34,6 +34,8 @@ This project is built using the following key technologies and architectural pat
 - **Unit Tests:** Ensures robustness and reliability of the code through extensive unit testing.
 
 ## TODO
+- Use separate models for each layer
+- Error handling
 - Use constants instead for haradcoded values
 - Use localized strings
 - Add more unit tests

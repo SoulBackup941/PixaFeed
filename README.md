@@ -11,7 +11,7 @@ PixaBay is an iOS app designed using modern development practices and architectu
 
 - ## Screenshots
 ### Login Screen
-![Login Screen](https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/login.png)
+<img src="https://github.com/SoulBackup941/PixaBay/blob/f668f81561a23babd3513700433d073cad709b8f/PixaFeed/Resources/screenshots/login.png" alt="Login Screen" width="300">
 ## Architecture & Technologies
 
 This project is built using the following key technologies and architectural patterns:

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76382E0A2AEFFD56001F736D /* screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 76382E092AEFFD56001F736D /* screenshots */; };
 		7666C4872AEBFFFC004C0372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666C4862AEBFFFC004C0372 /* AppDelegate.swift */; };
 		7666C4902AEBFFFF004C0372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7666C48F2AEBFFFF004C0372 /* Assets.xcassets */; };
 		7666C4932AEBFFFF004C0372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7666C4912AEBFFFF004C0372 /* LaunchScreen.storyboard */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76382E092AEFFD56001F736D /* screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = screenshots; sourceTree = "<group>"; };
 		7666C4832AEBFFFC004C0372 /* PixaFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixaFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7666C4862AEBFFFC004C0372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7666C48F2AEBFFFF004C0372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,6 +163,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		76382E082AEFFBFA001F736D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76382E092AEFFD56001F736D /* screenshots */,
+				7666C48F2AEBFFFF004C0372 /* Assets.xcassets */,
+				7666C4942AEBFFFF004C0372 /* Info.plist */,
+				7666C4912AEBFFFF004C0372 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		7666C47A2AEBFFFC004C0372 = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +195,7 @@
 		7666C4852AEBFFFC004C0372 /* PixaFeed */ = {
 			isa = PBXGroup;
 			children = (
+				76382E082AEFFBFA001F736D /* Resources */,
 				767E58F62AEEFB7200A38BD2 /* Common */,
 				767E58ED2AEEE59700A38BD2 /* Models */,
 				767E58EC2AEEE4B600A38BD2 /* Workers */,
@@ -190,10 +204,6 @@
 				767E58D62AEE664C00A38BD2 /* Coordinators */,
 				767E58E52AEEE25D00A38BD2 /* Scenes */,
 				7666C4862AEBFFFC004C0372 /* AppDelegate.swift */,
-				7666C48F2AEBFFFF004C0372 /* Assets.xcassets */,
-				7666C4912AEBFFFF004C0372 /* LaunchScreen.storyboard */,
-				7666C4942AEBFFFF004C0372 /* Info.plist */,
-				767E58DF2AEE6DCE00A38BD2 /* LoadingIndicatorView.swift */,
 			);
 			path = PixaFeed;
 			sourceTree = "<group>";
@@ -411,6 +421,7 @@
 		767E58F62AEEFB7200A38BD2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				767E58DF2AEE6DCE00A38BD2 /* LoadingIndicatorView.swift */,
 				767E58F72AEEFB7B00A38BD2 /* sha256.swift */,
 				76C0030B2AEFC13800338146 /* PaddedLabel.swift */,
 			);
@@ -524,6 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7666C4932AEBFFFF004C0372 /* LaunchScreen.storyboard in Resources */,
+				76382E0A2AEFFD56001F736D /* screenshots in Resources */,
 				7666C4902AEBFFFF004C0372 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,7 +749,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UZ4RRBQ322;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PixaFeed/Info.plist;
+				INFOPLIST_FILE = PixaFeed/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -768,7 +780,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UZ4RRBQ322;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PixaFeed/Info.plist;
+				INFOPLIST_FILE = PixaFeed/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

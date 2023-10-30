@@ -11,7 +11,7 @@ import Foundation
 class MockUserDataStore: UserDataStore {
     var isSaveCalled = false
     var shouldFail = false
-    var errorType: DataStoreError = .writeError // Default to writeError for local store mock
+    var errorType: DataStoreError = .writeError 
 
     func save(user: UserRegistration) async throws {
         isSaveCalled = true

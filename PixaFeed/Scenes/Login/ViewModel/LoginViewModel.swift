@@ -43,17 +43,14 @@ class LoginViewModel: LoginViewModelProtocol {
     }
 
     func didTapLogin(with email: String, password: String) {
-        // Here, instead of relying on VC to hide error labels,
-        // We can also introduce states like .emailError and .passwordError
-        // to handle individual errors for a more fine-grained UI control
         stateSubject.send(.loading)  // Indicate loading state
 
         Task {
             do {
                 try await performLogin(email: email, password: password)
-                stateSubject.send(.success)  // Success state
+                stateSubject.send(.success)
             } catch {
-                stateSubject.send(.failure(error))  // Failure state
+                stateSubject.send(.failure(error))
             }
         }
     }

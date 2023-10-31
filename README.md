@@ -40,7 +40,7 @@ This project is built using the following key technologies and architectural pat
 - Use constants instead for hardcoded values
 - Use localized strings
 - Add more unit tests
-- Add more UI details
+- Add more features
 
 ## Installation
 
